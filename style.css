@@ -41,7 +41,11 @@ a{
     margin-left: -20px;
 }
 
+.ballpic{
+    width:350px;
+    height:auto;
 
+}
 .picture ul{
     display: flex;
     flex:auto;
@@ -73,6 +77,12 @@ a{
     font-size: 16px;
 
 }
+/*
+.picteure ul :last-child{
+    padding-right:20px;
+
+}
+*/
 #signup{
     background-color: blue;
     font-size: 25px;
@@ -88,4 +98,39 @@ a{
  
    
     
+}
+
+.photostitle{
+    font-size: 50px;
+    font-weight: 900px;
+    display: flex;
+    margin-top: -50px;
+    margin-bottom: -20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.photos ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left:-40px;
+}
+
+.item{
+
+    display: table;
+}
+
+.item img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid darkblue;
+    border-radius: 20px;
+    
+}
+
+.caption{
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 16px;
 }
