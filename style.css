@@ -76,6 +76,7 @@ a{
 }
 .picture ul :nth-child(2){
     font-size: 16px;
+    color:beige;
 
 }
 /*
@@ -155,4 +156,42 @@ a{
     font-style: bold;
     font-weight: 600;
     margin-left: auto;
+}
+
+.action ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(87, 87, 161);
+    color:aliceblue;
+    border-color:blue;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 0px;
+    margin-left:  50px;
+    margin-right: 40px;
+}
+
+.recruit ul{
+    display: flex;
+    flex-direction:  column;
+    align-items: flex-start;
+    margin-left: 0px
+
+}
+
+.recruit ul :first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.action ul button{
+    background-color: rgb(87, 87, 161);
+    border-radius: 7px;
+    border-color: beige;
+    color: white;
+    font-size: 16px;
+    padding-left:10px;
+    padding-right: 10px;
 }
